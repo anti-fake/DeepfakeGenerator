@@ -25,3 +25,21 @@ gen_inpaint_dataset/
     ├── results/            # 인페인팅 결과 이미지
     └── visualization/      # 비교 시각화 이미지
 ```
+
+## 설치 방법
+
+### 1. 저장소 클론
+```bash
+git clone https://github.com/[your-username]/gen_inpaint_dataset.git
+cd gen_inpaint_dataset
+```
+
+### 2. 의존성 설치
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Hugging Face 로그인 (선택사항)
+```bash
+huggingface-cli login
+```
