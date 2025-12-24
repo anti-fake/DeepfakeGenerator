@@ -89,3 +89,21 @@ python visualize_results.py \
 ```bash
 bash run_visualization.sh
 ```
+
+## 파라미터 설명
+
+### gen_mask.py
+- `--input_dir`: 원본 이미지가 있는 디렉토리
+- `--mask_dir`: 마스크를 저장할 디렉토리
+
+### run_inpaint.py
+- `--input_dir`: 원본 이미지 디렉토리
+- `--mask_dir`: 마스크 이미지 디렉토리
+- `--output_dir`: 인페인팅 결과 저장 디렉토리
+- `--num_gpus`: 사용할 GPU 개수 (기본값: 1)
+
+### visualize_results.py
+- `--input_dir`: 원본 이미지 디렉토리
+- `--mask_dir`: 마스크 이미지 디렉토리
+- `--result_dir`: 인페인팅 결과 디렉토리
+- `--vis_dir`: 시각화 결과 저장 디렉토리
