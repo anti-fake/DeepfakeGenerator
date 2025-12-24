@@ -134,3 +134,10 @@ python run_inpaint.py --num_gpus 4
 | Original | Masked Input | Inpainted Result |
 |:--------:|:------------:|:----------------:|
 | 원본 이미지 | 마스크 적용 이미지 | 인페인팅 결과 |
+
+## 시스템 요구사항
+
+- Python 3.8+
+- CUDA 11.x 이상
+- GPU 메모리 8GB 이상 (fp16 사용 시)
+- 멀티 GPU 처리를 위한 torch.multiprocessing 지원
