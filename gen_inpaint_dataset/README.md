@@ -152,3 +152,17 @@ python run_inpaint.py --num_gpus 4
 ## 라이선스
 
 이 프로젝트는 MIT 라이선스를 따릅니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
+
+## 기여하기
+
+버그 리포트, 기능 제안, Pull Request를 환영합니다!
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 문의
+
+프로젝트에 대한 질문이나 제안이 있으시면 Issue를 생성해주세요.
