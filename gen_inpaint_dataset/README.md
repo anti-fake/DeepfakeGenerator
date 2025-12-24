@@ -59,3 +59,33 @@ bash run_pipeline.sh
 - 마스크 생성
 - 인페인팅 실행 (멀티 GPU)
 - 완료 알림
+
+### 개별 실행
+
+#### 1. 마스크 생성만
+```bash
+python gen_mask.py --input_dir ./samples --mask_dir ./data/masks
+```
+
+#### 2. 인페인팅 실행
+```bash
+python run_inpaint.py \
+    --input_dir ./samples \
+    --mask_dir ./data/masks \
+    --output_dir ./data/results \
+    --num_gpus 2
+```
+
+#### 3. 결과 시각화
+```bash
+python visualize_results.py \
+    --input_dir ./samples \
+    --mask_dir ./data/masks \
+    --result_dir ./data/results \
+    --vis_dir ./data/visualization
+```
+
+또는 시각화 스크립트 사용:
+```bash
+bash run_visualization.sh
+```
