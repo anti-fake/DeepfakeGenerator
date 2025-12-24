@@ -148,3 +148,7 @@ python run_inpaint.py --num_gpus 4
 - 이미지 파일 형식: PNG, JPG, JPEG 지원
 - 마스크 파일명 규칙: `{원본파일명}_mask.png`
 - 인페인팅 결과 파일명 규칙: `{원본파일명}_inpainted.png`
+
+## 라이선스
+
+이 프로젝트는 MIT 라이선스를 따릅니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
