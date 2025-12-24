@@ -107,3 +107,22 @@ bash run_visualization.sh
 - `--mask_dir`: 마스크 이미지 디렉토리
 - `--result_dir`: 인페인팅 결과 디렉토리
 - `--vis_dir`: 시각화 결과 저장 디렉토리
+
+## 마스크 생성 옵션
+
+`gen_mask.py`는 다음과 같은 랜덤 직사각형 마스크를 생성합니다:
+- **최소 면적 비율**: 이미지 면적의 2%
+- **최대 면적 비율**: 이미지 면적의 20%
+- **종횡비**: 0.5 ~ 2.0 범위에서 랜덤
+
+## GPU 설정
+
+`run_pipeline.sh`에서 GPU 설정을 변경할 수 있습니다:
+
+```bash
+# 특정 GPU만 사용하려면:
+CUDA_VISIBLE_DEVICES=0,1 python run_inpaint.py --num_gpus 2
+
+# 모든 GPU 사용:
+python run_inpaint.py --num_gpus 4
+```
