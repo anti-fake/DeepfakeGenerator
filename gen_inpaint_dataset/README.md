@@ -141,3 +141,10 @@ python run_inpaint.py --num_gpus 4
 - CUDA 11.x 이상
 - GPU 메모리 8GB 이상 (fp16 사용 시)
 - 멀티 GPU 처리를 위한 torch.multiprocessing 지원
+
+## 주의사항
+
+- 첫 실행 시 Stable Diffusion 모델 다운로드에 시간이 소요됩니다 (~4GB)
+- 이미지 파일 형식: PNG, JPG, JPEG 지원
+- 마스크 파일명 규칙: `{원본파일명}_mask.png`
+- 인페인팅 결과 파일명 규칙: `{원본파일명}_inpainted.png`
