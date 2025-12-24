@@ -126,3 +126,11 @@ CUDA_VISIBLE_DEVICES=0,1 python run_inpaint.py --num_gpus 2
 # 모든 GPU 사용:
 python run_inpaint.py --num_gpus 4
 ```
+
+## 출력 예시
+
+시각화 결과는 다음과 같은 형태로 생성됩니다:
+
+| Original | Masked Input | Inpainted Result |
+|:--------:|:------------:|:----------------:|
+| 원본 이미지 | 마스크 적용 이미지 | 인페인팅 결과 |
