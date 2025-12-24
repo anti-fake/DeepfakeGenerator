@@ -43,3 +43,19 @@ pip install -r requirements.txt
 ```bash
 huggingface-cli login
 ```
+
+## 사용 방법
+
+### 빠른 시작 (전체 파이프라인 실행)
+
+1. 입력 이미지를 `samples/` 디렉토리에 추가합니다.
+
+2. 전체 파이프라인을 실행합니다:
+```bash
+bash run_pipeline.sh
+```
+
+이 스크립트는 다음 작업을 순차적으로 수행합니다:
+- 마스크 생성
+- 인페인팅 실행 (멀티 GPU)
+- 완료 알림
