@@ -34,7 +34,7 @@ git clone https://github.com/[your-username]/gen_inpaint_dataset.git
 cd gen_inpaint_dataset
 ```
 
-### 2. 의존성 설치
+### 2. 환경 설정
 ```bash
 pip install -r requirements.txt
 ```
