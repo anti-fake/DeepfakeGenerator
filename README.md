@@ -6,7 +6,6 @@
 
 ### 1) Autolabel (자동 라벨링)
 - 데이터 생성 과정에서 필요한 **마스크/영역/메타데이터 라벨**을 자동으로 생성/정리하기 위한 스크립트들을 포함합니다.
-- 예: `02_autolabel.py` :contentReference[oaicite:2]{index=2}
 
 ### 2) Image Inpainting Dataset Generator
 - * Code: [`gen_inpaint_dataset`](https://github.com/anti-fake/DeepfakeGenerator/tree/main/gen_inpaint_dataset)
